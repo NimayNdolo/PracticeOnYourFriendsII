@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600&display=swap');
+
+.nav li {
+    display: inline;
+    list-style-type: none;
+    margin-left: 18%;
+}
+.container {
+    width: 940px;
+}
+.content {
+    float: left;
+    width: 80%;
+}
+.sidebar {
+    float: left;
+    width: 20%;
+}
+
+body {
+    background: linear-gradient(270deg, #ffffff, #dbebe8, #ffecfa, #faf5e0);
+    background-size: 800% 800%;
+
+    -webkit-animation: AnimationName 19s ease infinite;
+    -moz-animation: AnimationName 19s ease infinite;
+    animation: AnimationName 19s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.align-left {
+    position: relative;
+    margin-right: 700%;
+}
+
+.cms-plugin-12 .cms-plugin{
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 500;
+}
+
+.cms-plugin-13 {
+    margin-left: 700px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 400;
+    color: #cc6699;
+}
+
+.cms-plugin-14 {
+    margin-left: 555px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 400;
+}
+
+h2 {
+    margin-left: 580px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 500;
+    margin-top: 12%;
+    display: inline-flex;
+}
+
+.img-fluid {
+    margin-top: -535px;
+}
+
+figcaption {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 300;
+    font-size: 10px;
+}
+
+a {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: #ff9900;
+}
+
+a:hover {
+    color: #9900ff;
+}
+
+a:active {
+    color: #009900;
+}
+
+nav {
+    margin-left: -1000px;
+}
+
+iframe {
+    width: 840px;
+    height: 473px;
+    margin-left: 280px;
+    margin-top: 50px;
+}

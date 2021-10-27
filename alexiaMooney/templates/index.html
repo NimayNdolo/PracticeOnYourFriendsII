@@ -1,0 +1,35 @@
+{% load cms_tags menu_tags sekizai_tags %}
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>a l e x i a - {% page_attribute "page_title" %}</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="{% static 'assets/favicon.ico' %}" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="{% static 'assets/css/styles.css' %}" rel="stylesheet" />
+        {% render_block "css" %}
+    </head>
+    <body>
+    {% cms_toolbar %}
+        
+        <div class="container">
+            <div class="text-center mt-5">
+                <h1>A L E X I A    M O O N E Y</h1>
+                <h2 class="lead">social / film / statement</h2>
+    
+            </div>
+        </div>
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="{% static 'assets/js/scripts.js' %}"></script>
+        {% render_block "js" %}
+    </body>
+</html>

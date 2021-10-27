@@ -1,0 +1,23 @@
+{% load cms_tags menu_tags sekizai_tags %}
+<!doctype html>
+<html>
+    <head>
+        <title>{% block title %}a l e x i a - {% endblock title %}</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        {% load static %}
+        <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+        {% render_block "css" %}
+    </head>
+    <body>
+        {% cms_toolbar %}
+        <div class="container">
+            <ul class="nav">
+                {% show_menu 0 100 100 100 %}
+            </ul>
+            {% block content %}{% endblock content %}
+        </div>
+
+    
+        {% render_block "js" %}
+    </body>
+</html>
